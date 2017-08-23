@@ -37,3 +37,6 @@ class Zi11 extends Fu11 {
 		System.out.println("Zi Show");
 	}
 }
+
+
+

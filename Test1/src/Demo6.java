@@ -6,5 +6,6 @@ public class Demo6 {
 		phone.color = "black";
 		phone.size = 5.5;
 		System.out.println("手机品牌是" + phone.brand);
+		
 	}
 }
