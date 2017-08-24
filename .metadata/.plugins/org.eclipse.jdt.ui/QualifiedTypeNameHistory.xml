@@ -4,9 +4,22 @@
 <fullyQualifiedTypeName name="多态.Dog"/>
 <fullyQualifiedTypeName name="多态.毕老师"/>
 <fullyQualifiedTypeName name="多态.b2"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="多态.Mouse"/>
 <fullyQualifiedTypeName name="多态.USB"/>
 <fullyQualifiedTypeName name="多态.computer"/>
 <fullyQualifiedTypeName name="多态.Computer"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="构造方法.Fu"/>
+<fullyQualifiedTypeName name="构造方法.Zi"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+<fullyQualifiedTypeName name="构造方法.Person"/>
+<fullyQualifiedTypeName name="构造方法.Student"/>
+<fullyQualifiedTypeName name="构造方法.Worker"/>
+<fullyQualifiedTypeName name="构造方法.Employee"/>
+<fullyQualifiedTypeName name="构造方法.Maintainer"/>
+<fullyQualifiedTypeName name="构造方法.Developer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="构造方法.JavaEE"/>
+<fullyQualifiedTypeName name="构造方法.NetWork"/>
 </qualifiedTypeNameHistroy>
