@@ -1,0 +1,11 @@
+package 构造方法;
+
+public class JavaEE extends Developer {
+
+	@Override
+	public void work() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

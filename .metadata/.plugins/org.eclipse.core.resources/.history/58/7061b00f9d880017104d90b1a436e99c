@@ -1,0 +1,25 @@
+package 构造方法;
+
+public class Test3 {
+	public static void main(String[] args) {
+		Fu fu = new Fu("zhangsan");
+		Zi zi = new Zi();
+	}
+}
+
+class Fu {
+	int num;
+	Fu(String name) {
+		// TODO Auto-generated constructor stub
+		System.out.println("Fu 构造 num = " + num);
+		num = 8;
+	}
+}
+
+class Zi extends Fu {
+	Zi(String name) {
+		// TODO Auto-generated constructor stub
+		super();
+		System.out.println("Zi 构造 num = " + num);
+	}
+}
