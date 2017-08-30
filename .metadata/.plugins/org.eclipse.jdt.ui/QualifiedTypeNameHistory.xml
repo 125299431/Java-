@@ -19,7 +19,18 @@
 <fullyQualifiedTypeName name="构造方法.Employee"/>
 <fullyQualifiedTypeName name="构造方法.Maintainer"/>
 <fullyQualifiedTypeName name="构造方法.Developer"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="构造方法.JavaEE"/>
 <fullyQualifiedTypeName name="构造方法.NetWork"/>
+<fullyQualifiedTypeName name="java.util.concurrent.FutureTask"/>
+<fullyQualifiedTypeName name="关键字内部对象等.Fu1"/>
+<fullyQualifiedTypeName name="关键字内部对象等.Fu"/>
+<fullyQualifiedTypeName name="org.omg.PortableInterceptor.AdapterManagerIdHelper"/>
+<fullyQualifiedTypeName name="关键字内部对象等.demo"/>
+<fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="关键字内部对象等.Company"/>
+<fullyQualifiedTypeName name="关键字内部对象等.Demo"/>
+<fullyQualifiedTypeName name="关键字内部对象等.Demo1"/>
+<fullyQualifiedTypeName name="关键字内部对象等.Person"/>
+<fullyQualifiedTypeName name="关键字内部对象等.Person.Heart"/>
 </qualifiedTypeNameHistroy>

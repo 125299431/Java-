@@ -1,0 +1,23 @@
+package 关键字内部对象等;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person.Heart heart = new Person().new Heart();
+		heart.show();
+	}
+
+}
+
+/*
+ * 内部类
+ * */
+
+class Person {
+ class Heart {
+		public void show() {
+			System.out.println("这是心脏");
+		}
+	}
+}

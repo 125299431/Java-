@@ -1,0 +1,18 @@
+package 关键字内部对象等;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Demo demo = new Demo();
+		demo.num = 20;
+		Demo demo1 = new Demo();
+//		demo1.num = 30;
+		System.out.println(demo1.num);
+	}
+
+}
+
+class Demo {
+	public static int num = 10;
+}
