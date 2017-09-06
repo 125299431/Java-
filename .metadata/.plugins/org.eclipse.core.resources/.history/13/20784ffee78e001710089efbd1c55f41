@@ -1,0 +1,30 @@
+package 关键字内部对象等;
+
+import java.util.jar.Attributes.Name;
+
+public class Test5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Per per = new Per(10);
+		
+	}
+
+}
+
+class Per {
+	private String name;
+	private int age;
+	{
+		//构造代码块
+	}
+	
+	Per() {
+		System.out.println("Per无参数构造代码块");
+	}
+	
+	Per(int age) {
+		this.age = age;
+		System.out.println("有参数构造代码块");
+	}
+}

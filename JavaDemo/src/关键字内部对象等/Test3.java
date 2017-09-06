@@ -6,6 +6,17 @@ public class Test3 {
 		// TODO Auto-generated method stub
 		People.Heart heart = new People().new Heart();
 		heart.show();
+		
+		Person1 person1 = new Person1();
+		person1.show1();
+		
+		Person2 person2 = new Person2() {
+			void eat() {
+				System.out.println("人需要吃");
+			}
+		};
+		
+		person2.eat();
 	}
 
 }
@@ -27,6 +38,24 @@ class People {
  */
 class Person1 {
 	void show1() {
-		class 
+		class Ball { //内部类 气球
+			public void playBall() {
+				System.out.println("玩气球");
+			}
+		}
+		
+		new Ball().playBall();
 	}
+	
 }
+
+/*
+ * 匿名内部类
+ */
+abstract class Person2 {
+	abstract void eat();
+}
+
+
+
+
