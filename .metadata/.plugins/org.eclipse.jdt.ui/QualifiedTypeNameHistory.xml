@@ -46,5 +46,11 @@
 <fullyQualifiedTypeName name="关键字内部对象等.Per"/>
 <fullyQualifiedTypeName name="关键字内部对象等.Person"/>
 <fullyQualifiedTypeName name="java.awt.image.SampleModel"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="关键字内部对象等.User"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="关键字内部对象等.LoginSystem"/>
 </qualifiedTypeNameHistroy>

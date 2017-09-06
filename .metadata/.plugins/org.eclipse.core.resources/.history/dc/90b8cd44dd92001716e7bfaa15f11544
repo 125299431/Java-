@@ -125,30 +125,16 @@ public class Test8 {
 		/*
 		 * StringBuffer 的方法使用
 		 */
-//		StringBuffer stringBuffer = new StringBuffer();
-//		//添加字符串
-//		stringBuffer.append("haha");
-//		//在指定的位置插入字符串
-//		stringBuffer.insert(0, "hehe");
-//		//删除 从哪删到哪
-//		stringBuffer.delete(2, 4);
-//		//替换指定范围的内容
-//		stringBuffer.replace(0, 3, "gg");
-//		System.out.println(stringBuffer);
-		
-//		练习：int[] arr = {34,12,89,68};将一个int[]中元素转成字符串  格式 [34,12,89,68]
-		int[] arr = {34,12,89,68};
-		StringBuffer sBuffer = new StringBuffer();
-		sBuffer.append("[");
-		for (int i = 0; i < arr.length; i++) {
-			sBuffer.append(arr[i]);
-			if (i != arr.length - 1) {
-				sBuffer.append(",");
-			}else {
-				sBuffer.append("]");
-			}
-		}
-		System.out.println(sBuffer);
+		StringBuffer stringBuffer = new StringBuffer();
+		//添加字符串
+		stringBuffer.append("haha");
+		//在指定的位置插入字符串
+		stringBuffer.insert(0, "hehe");
+		//删除 从哪删到哪
+		stringBuffer.delete(2, 4);
+		//替换指定范围的内容
+		stringBuffer.replace(0, 3, "gg");
+		System.out.println(stringBuffer);
 	}
 	
 	/*

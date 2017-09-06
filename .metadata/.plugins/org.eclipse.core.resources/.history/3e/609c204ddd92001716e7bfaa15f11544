@@ -141,7 +141,7 @@ public class Test8 {
 		StringBuffer sBuffer = new StringBuffer();
 		sBuffer.append("[");
 		for (int i = 0; i < arr.length; i++) {
-			sBuffer.append(arr[i]);
+			sBuffer.append(i);
 			if (i != arr.length - 1) {
 				sBuffer.append(",");
 			}else {
