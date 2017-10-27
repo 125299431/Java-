@@ -1,0 +1,17 @@
+package SystemApi;
+
+public class Test1 {
+	public static void main(String[] args) {
+//		System.out.println(Integer.parseInt("30"));
+		/*
+		 * 1.3	自动装箱拆箱
+		 */
+		Integer integer = 4;//自动装箱 相当于Integer integer = Integer.valueOf(4);
+		integer = integer + 5; //等号右边：将i对象转成基本数值(自动拆箱) i.intValue() + 5; 加法运算完成后，再次装箱，把基本数值转成对象。
+		
+		Integer a = new Integer(4);
+		Integer b = new Integer(5);
+		System.out.println(a == b);
+		System.out.println(a.equals(b));
+	}
+}
