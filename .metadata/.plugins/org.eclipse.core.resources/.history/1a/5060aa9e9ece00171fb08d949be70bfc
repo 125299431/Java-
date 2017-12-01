@@ -1,0 +1,36 @@
+package 集合;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Test5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		test1();
+	}
+	
+	static void test1() {
+		List<String> list = new ArrayList<String>();
+		//添加
+		list.add("小花");
+		list.add("小猫");
+		list.add("老王");
+		
+		//插入
+		list.add(1, "老李");
+		
+		//删除元素
+		list.remove(2);
+		
+		//修改元素
+		list.set(0, "小欧");
+		
+		Iterator<String> iterator = list.iterator();
+		while (iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+	}
+
+}

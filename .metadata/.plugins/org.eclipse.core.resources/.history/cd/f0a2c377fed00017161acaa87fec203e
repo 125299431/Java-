@@ -1,0 +1,77 @@
+package 集合;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class Test8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Set 接口
+//		test1();
+		test2();
+	}
+	
+	static void test1() {
+		HashSet<User> userInfo = new HashSet<User>();
+		User u1 = new User("xiaoming", "123");
+		User u2 = new User("xiaohuang", "23");
+		userInfo.add(u1);
+		userInfo.add(u2);
+		
+		User u3 = new User("xiaoming", "123");
+		userInfo.add(u3);
+		User u4 = new User("xiaogou", "1221");
+		userInfo.add(u4);
+		System.out.println(userInfo.size());
+		
+		Iterator<User> iterator = userInfo.iterator();
+		while (iterator.hasNext()) {
+			User user = iterator.next();
+			System.out.println(user.getName());
+		}
+	}
+	
+	static void test2() {
+		HashSet<String> hashSet = new HashSet<>();
+		hashSet.add("123");
+		hashSet.add("1232312");
+		hashSet.add("123");
+		hashSet.add("5432");
+		
+		Iterator<String> iterator = hashSet.iterator();
+		while (iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+	}
+
+}
+
+class User {
+	private String name;
+	private String age;
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public User(String name,String age) {
+		this.name = name;
+		this.age = age;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public void setAge(String age) {
+		this.age = age;
+	}
+	
+	public String getAge() {
+		return this.age;
+	}
+}
